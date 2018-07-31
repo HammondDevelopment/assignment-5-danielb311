@@ -1,6 +1,7 @@
 import random
 import importlib
 import copy
+import sys
 
 konane = importlib.import_module(sys.argv[4] + ".konane")
 
