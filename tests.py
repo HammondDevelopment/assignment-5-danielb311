@@ -8,5 +8,6 @@ def createSuite():
 
 if __name__ == '__main__':
   suite = createSuite()
+  print(sys.path)
   runner = unittest.TextTestRunner(verbosity=2)
   results = runner.run(suite)

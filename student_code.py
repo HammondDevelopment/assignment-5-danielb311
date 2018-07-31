@@ -2,8 +2,7 @@ import random
 import importlib
 import copy
 import sys
-
-konane = importlib.import_module(sys.argv[4] + ".konane")
+import konane
 
 # class for individual player.  student and grader players should be identical except for:
 #     - implementation of getMinimaxMove() and getAlphabetaMove(), and
