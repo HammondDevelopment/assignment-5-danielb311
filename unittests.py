@@ -4,8 +4,8 @@ import random
 import time
 import os
 import sys
-from assignment4 import konane as kb
-from assignment4 import student_code as student
+import konane as kb
+import student_code as student
 
 def runGame(board, max_moves, depth, algoG, algoS, student_xo):
   start = time.clock()
